@@ -49,10 +49,6 @@ googleAnalytics = "UA-165857578-1"
     whatsapp        = "https://api.whatsapp.com/send?phone=5547991512508&amp;text=Site"
 
 
-[[params.addtional_menus]]
-    title =  "sobre o autor"
-    href =  "https://alexandremendoncaalvaro.github.io/"
-
 [markup]
     [markup.tableOfContents]
         endLevel = 2
