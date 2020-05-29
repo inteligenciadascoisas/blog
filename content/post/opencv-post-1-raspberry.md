@@ -8,7 +8,6 @@ date:           2020-05-28
 author:         "Alexandre Alvaro"
 image:          "img/opencv-post-001/capa.jpg"
 thumbnail:      "img/opencv-post-001/thumb.jpg"
-draft:           true
 categories:     [ Visão Computacional ]
 tags:
                 - raspberrypi

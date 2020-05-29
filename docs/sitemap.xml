@@ -3,17 +3,82 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://alexandremendoncaalvaro.github.io/blog/categories/</loc>
+    <lastmod>2020-05-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexandremendoncaalvaro.github.io/blog/tags/dlib/</loc>
+    <lastmod>2020-05-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexandremendoncaalvaro.github.io/blog/</loc>
+    <lastmod>2020-05-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexandremendoncaalvaro.github.io/blog/tags/intermediario/</loc>
+    <lastmod>2020-05-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexandremendoncaalvaro.github.io/blog/tags/iot/</loc>
+    <lastmod>2020-05-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexandremendoncaalvaro.github.io/blog/tags/opencv/</loc>
+    <lastmod>2020-05-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexandremendoncaalvaro.github.io/blog/post/opencv-post-1-raspberry/</loc>
+    <lastmod>2020-05-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexandremendoncaalvaro.github.io/blog/post/</loc>
+    <lastmod>2020-05-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexandremendoncaalvaro.github.io/blog/tags/prototipa%C3%A7%C3%A3o/</loc>
+    <lastmod>2020-05-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexandremendoncaalvaro.github.io/blog/tags/raspberrypi/</loc>
+    <lastmod>2020-05-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexandremendoncaalvaro.github.io/blog/tags/</loc>
+    <lastmod>2020-05-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexandremendoncaalvaro.github.io/blog/tags/tutorial/</loc>
+    <lastmod>2020-05-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexandremendoncaalvaro.github.io/blog/tags/visaocomputacional/</loc>
+    <lastmod>2020-05-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexandremendoncaalvaro.github.io/blog/categories/vis%C3%A3o-computacional/</loc>
+    <lastmod>2020-05-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://alexandremendoncaalvaro.github.io/blog/categories/arduino/</loc>
     <lastmod>2020-05-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://alexandremendoncaalvaro.github.io/blog/tags/arduino/</loc>
-    <lastmod>2020-05-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://alexandremendoncaalvaro.github.io/blog/categories/</loc>
     <lastmod>2020-05-17T00:00:00+00:00</lastmod>
   </url>
   
@@ -28,37 +93,7 @@
   </url>
   
   <url>
-    <loc>https://alexandremendoncaalvaro.github.io/blog/</loc>
-    <lastmod>2020-05-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://alexandremendoncaalvaro.github.io/blog/tags/interativo/</loc>
-    <lastmod>2020-05-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://alexandremendoncaalvaro.github.io/blog/tags/iot/</loc>
-    <lastmod>2020-05-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://alexandremendoncaalvaro.github.io/blog/post/</loc>
-    <lastmod>2020-05-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://alexandremendoncaalvaro.github.io/blog/tags/prototipa%C3%A7%C3%A3o/</loc>
-    <lastmod>2020-05-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://alexandremendoncaalvaro.github.io/blog/tags/</loc>
-    <lastmod>2020-05-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://alexandremendoncaalvaro.github.io/blog/tags/tutorial/</loc>
     <lastmod>2020-05-17T00:00:00+00:00</lastmod>
   </url>
   

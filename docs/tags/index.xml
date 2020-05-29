@@ -6,10 +6,82 @@
     <description>Recent content in Tags on inteligência das coisas</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
-    <lastBuildDate>Sun, 17 May 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 28 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://alexandremendoncaalvaro.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>dlib</title>
+      <link>https://alexandremendoncaalvaro.github.io/blog/tags/dlib/</link>
+      <pubDate>Thu, 28 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://alexandremendoncaalvaro.github.io/blog/tags/dlib/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>intermediario</title>
+      <link>https://alexandremendoncaalvaro.github.io/blog/tags/intermediario/</link>
+      <pubDate>Thu, 28 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://alexandremendoncaalvaro.github.io/blog/tags/intermediario/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>iot</title>
+      <link>https://alexandremendoncaalvaro.github.io/blog/tags/iot/</link>
+      <pubDate>Thu, 28 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://alexandremendoncaalvaro.github.io/blog/tags/iot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>opencv</title>
+      <link>https://alexandremendoncaalvaro.github.io/blog/tags/opencv/</link>
+      <pubDate>Thu, 28 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://alexandremendoncaalvaro.github.io/blog/tags/opencv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>prototipação</title>
+      <link>https://alexandremendoncaalvaro.github.io/blog/tags/prototipa%C3%A7%C3%A3o/</link>
+      <pubDate>Thu, 28 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://alexandremendoncaalvaro.github.io/blog/tags/prototipa%C3%A7%C3%A3o/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>raspberrypi</title>
+      <link>https://alexandremendoncaalvaro.github.io/blog/tags/raspberrypi/</link>
+      <pubDate>Thu, 28 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://alexandremendoncaalvaro.github.io/blog/tags/raspberrypi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tutorial</title>
+      <link>https://alexandremendoncaalvaro.github.io/blog/tags/tutorial/</link>
+      <pubDate>Thu, 28 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://alexandremendoncaalvaro.github.io/blog/tags/tutorial/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>visaocomputacional</title>
+      <link>https://alexandremendoncaalvaro.github.io/blog/tags/visaocomputacional/</link>
+      <pubDate>Thu, 28 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://alexandremendoncaalvaro.github.io/blog/tags/visaocomputacional/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>arduino</title>
@@ -44,33 +116,6 @@
       <pubDate>Sun, 17 May 2020 00:00:00 +0000</pubDate>
       
       <guid>https://alexandremendoncaalvaro.github.io/blog/tags/interativo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>iot</title>
-      <link>https://alexandremendoncaalvaro.github.io/blog/tags/iot/</link>
-      <pubDate>Sun, 17 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://alexandremendoncaalvaro.github.io/blog/tags/iot/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>prototipação</title>
-      <link>https://alexandremendoncaalvaro.github.io/blog/tags/prototipa%C3%A7%C3%A3o/</link>
-      <pubDate>Sun, 17 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://alexandremendoncaalvaro.github.io/blog/tags/prototipa%C3%A7%C3%A3o/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>tutorial</title>
-      <link>https://alexandremendoncaalvaro.github.io/blog/tags/tutorial/</link>
-      <pubDate>Sun, 17 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://alexandremendoncaalvaro.github.io/blog/tags/tutorial/</guid>
       <description></description>
     </item>
     
