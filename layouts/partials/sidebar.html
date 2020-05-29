@@ -42,7 +42,17 @@
     {{ if .Site.Params.about_me }}
     <section class="visible-md visible-lg">
         <hr>
-        <h5><a href="{{ "https://alexandremendoncaalvaro.github.io/" | relLangURL }}">SOBRE MIM</a></h5>
+        <h5>AUTORES</h5>
+        <h6><a href="https://www.linkedin.com/in/pedro-kolb-emmel-42496794/">Pedro Emmel</a></h6>
+        <div class="short-about">
+            <a href="https://www.linkedin.com/in/pedro-kolb-emmel-42496794/">
+                <img src="/blog/img/pepe-profile.jpg" alt="avatar" style="cursor: pointer" />
+            </a>
+            <p>"Pesquisador na HBSIS Ambev, Maker, Entusiasta de Impressão 3D, apaixonado por elaboração de produtos e engenharia de produção."</p>
+        </div>
+        <hr>
+        <h5><a href="{{ "https://alexandremendoncaalvaro.github.io/" | relLangURL }}">FUNDADOR</a></h5>
+        <h6><a href="{{ "https://alexandremendoncaalvaro.github.io/" | relLangURL }}">Alexandre Alvaro</a></h6>
         <div class="short-about">
             {{ with .Site.Params.sidebar_avatar }}
             <a href="{{ "https://alexandremendoncaalvaro.github.io/" | relLangURL }}">

@@ -19,6 +19,8 @@ tags:
                 - interativo
 ---
 
+**Para fazer um aproveitamento total dos recursos interativos, acesse pelo computador :smile:**
+
 # Introdução
 Opa! Tudo belezinha?  
 Este é um artigo bem interativo. Fique de olho em cada detalhe para aprender fazendo seus próprios testes! :smile:
