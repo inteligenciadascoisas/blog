@@ -1,4 +1,4 @@
-baseURL = "https://alexandremendoncaalvaro.github.io/blog/"
+baseURL = "https://inteligenciadascoisas.github.io/blog/"
 title = "inteligência das coisas"
 theme =  "hugo-theme-cleanwhite"
 languageCode = "pt-br"
