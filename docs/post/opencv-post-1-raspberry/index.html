@@ -10,9 +10,10 @@
     <meta property="og:type" content="article">
 
     <meta property="og:title" content="OpenCV e Dlib no Raspberry Pi" />
-<meta property="og:description" content="Introdução Assim como muita gente, tive problemas para instalar o OpenCV e a bilioteca Dlib pra trabalhar com visão computacional no Raspberry Pi.
+<meta property="og:description" content="UPDATE: Adicionei o processo fácil de instalação. Veja abaixo em INSTALAÇÃO SIMPLES.
+Introdução Assim como muita gente, tive problemas para instalar o OpenCV e a bilioteca Dlib pra trabalhar com visão computacional no Raspberry Pi.
 Exatamente por isso decidir ajudar, dei uma bela lida nos tutoriais disponíveis e documentação oficial e resolvi compartilhar este processo com alguns scripts pra facilitar e a automatizar bastante esta instalação, deixando quase fácil.
-Testei com algumas versões diferentes (de hardware e software) com sucesso. Mas, obviamente não consegui cobrir todos os cenários, então sinta-se a vontade para colaborar com um Pull Request ou me avisar." />
+Testei com algumas versões diferentes (de hardware e software) com sucesso." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://inteligenciadascoisas.github.io/blog/post/opencv-post-1-raspberry/" /><meta property="article:published_time" content="2020-05-28T00:00:00+00:00" />
 <meta property="article:modified_time" content="2020-05-28T00:00:00+00:00" />
@@ -29,9 +30,9 @@ Testei com algumas versões diferentes (de hardware e software) com sucesso. Mas
     
 
     
-    <meta name="description" content="Assim como muita gente, tive problemas para instalar o OpenCV e a bilioteca Dlib pra trabalhar com visão computacional no Raspberry Pi. Exatamente por isso decidir ajudar, dei uma bela lida nos tutoriais disponíveis e documentação oficial e resolvi compartilhar este processo com alguns scripts pra facilitar e a automatizar bastante esta instalação, deixando quase fácil.">
-    <meta property="og:description" content="Assim como muita gente, tive problemas para instalar o OpenCV e a bilioteca Dlib pra trabalhar com visão computacional no Raspberry Pi. Exatamente por isso decidir ajudar, dei uma bela lida nos tutoriais disponíveis e documentação oficial e resolvi compartilhar este processo com alguns scripts pra facilitar e a automatizar bastante esta instalação, deixando quase fácil." />
-    <meta property="twitter:description" content="Assim como muita gente, tive problemas para instalar o OpenCV e a bilioteca Dlib pra trabalhar com visão computacional no Raspberry Pi. Exatamente por isso decidir ajudar, dei uma bela lida nos tutoriais disponíveis e documentação oficial e resolvi compartilhar este processo com alguns scripts pra facilitar e a automatizar bastante esta instalação, deixando quase fácil." />
+    <meta name="description" content="Assim como muita gente, tive problemas para instalar o OpenCV e a bilioteca Dlib pra trabalhar com visão computacional no Raspberry Pi. Exatamente por isso decidir ajudar, dei uma bela lida nos tutoriais disponíveis e documentação oficial e resolvi compartilhar este processo com alguns scripts pra facilitar e a automatizar bastante esta instalação, deixando bem fácil.">
+    <meta property="og:description" content="Assim como muita gente, tive problemas para instalar o OpenCV e a bilioteca Dlib pra trabalhar com visão computacional no Raspberry Pi. Exatamente por isso decidir ajudar, dei uma bela lida nos tutoriais disponíveis e documentação oficial e resolvi compartilhar este processo com alguns scripts pra facilitar e a automatizar bastante esta instalação, deixando bem fácil." />
+    <meta property="twitter:description" content="Assim como muita gente, tive problemas para instalar o OpenCV e a bilioteca Dlib pra trabalhar com visão computacional no Raspberry Pi. Exatamente por isso decidir ajudar, dei uma bela lida nos tutoriais disponíveis e documentação oficial e resolvi compartilhar este processo com alguns scripts pra facilitar e a automatizar bastante esta instalação, deixando bem fácil." />
     
 
     
@@ -208,7 +209,7 @@ Testei com algumas versões diferentes (de hardware e software) com sucesso. Mas
   
 </div>
 <h1>OpenCV e Dlib no Raspberry Pi</h1>
-<h2 class="subheading">Instalação quase fácil</h2>
+<h2 class="subheading">Instalação AGORA fácil</h2>
 
 <div class="post__meta tags">
   
@@ -296,6 +297,12 @@ Testei com algumas versões diferentes (de hardware e software) com sucesso. Mas
     <li><a href="#introdução">Introdução</a></li>
     <li><a href="#recomendações-para-projetos-de-visão-computacional-com-raspberry-pi">Recomendações (para projetos de visão computacional com Raspberry Pi)</a></li>
     <li><a href="#instalação-do-raspbian">Instalação do Raspbian</a></li>
+    <li><a href="#instalação-simples">INSTALAÇÃO SIMPLES</a>
+      <ul>
+        <li><a href="#testando">Testando</a></li>
+      </ul>
+    </li>
+    <li><a href="#instalação-passo-a-passo">INSTALAÇÃO PASSO A PASSO</a></li>
     <li><a href="#compilando-o-opencv-no-raspbian">Compilando o OpenCV no Raspbian</a></li>
     <li><a href="#preparando-o-sistema-pra-dar-conta-da-instalação">Preparando o sistema pra dar conta da instalação</a>
       <ul>
@@ -304,7 +311,7 @@ Testei com algumas versões diferentes (de hardware e software) com sucesso. Mas
     </li>
     <li><a href="#instalando-a-dlib-no-raspbian">Instalando a Dlib no Raspbian</a></li>
     <li><a href="#finalizando">Finalizando</a></li>
-    <li><a href="#testando">Testando</a></li>
+    <li><a href="#testando-1">Testando</a></li>
     <li><a href="#referências">Referências</a></li>
   </ul>
 </nav>
@@ -312,7 +319,8 @@ Testei com algumas versões diferentes (de hardware e software) com sucesso. Mas
 
                 <hr>
 
-                <h1 id="introdução">Introdução</h1>
+                <p><strong>UPDATE: Adicionei o processo fácil de instalação. Veja abaixo em <a href="#instala%C3%A7%C3%A3o-simples">INSTALAÇÃO SIMPLES</a>.</strong></p>
+<h1 id="introdução">Introdução</h1>
 <p>Assim como muita gente, tive problemas para instalar o OpenCV e a bilioteca Dlib pra trabalhar com visão computacional no Raspberry Pi.</p>
 <p>Exatamente por isso decidir ajudar, dei uma bela lida nos tutoriais disponíveis e documentação oficial e resolvi compartilhar este processo com alguns scripts pra facilitar e a automatizar bastante esta instalação, deixando quase fácil.</p>
 <p>Testei com algumas versões diferentes (de hardware e software) com sucesso. Mas, obviamente não consegui cobrir todos os cenários, então sinta-se a vontade para colaborar com um Pull Request ou me avisar.</p>
@@ -332,6 +340,33 @@ Não pule nenhuma etapa deste tutorial!</p>
 <p><a href="https://downloads.raspberrypi.org/imager/imager.exe">Raspberry Pi Imager for Windows</a>
 <a href="https://downloads.raspberrypi.org/imager/imager.dmg">Raspberry Pi Imager for macOS</a>
 <a href="https://downloads.raspberrypi.org/imager/imager_amd64.deb">Raspberry Pi Imager for Ubuntu</a></p>
+<h1 id="instalação-simples">INSTALAÇÃO SIMPLES</h1>
+<ol>
+<li>Preparando o sistema pra dar conta da instalação.<br>
+<strong>IMPORTANTE:</strong> Navegue até a pasta do seu projeto pelo terminal (se precisar crie uma), então rode:</li>
+</ol>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">/bin/bash -c <span style="color:#f1fa8c">&#34;</span><span style="color:#ff79c6">$(</span>curl -fsSL https://raw.githubusercontent.com/alexandremendoncaalvaro/install-opencv-dlib-raspbian/master/easy-install.sh<span style="color:#ff79c6">)</span><span style="color:#f1fa8c">&#34;</span>
+</code></pre></div><blockquote>
+<p>Ao final irá reiniciar para interface de linha de comando</p>
+</blockquote>
+<ol start="2">
+<li>Execute o comando:</li>
+</ol>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">~/install-opencv-dlib-raspbian/easy-install-after-reboot.sh
+</code></pre></div><blockquote>
+<p>Ao final irá reiniciar para interface desktop</p>
+</blockquote>
+<p>*Faça exercícios, tome um banho, tire uma soneca… Pois vai demorar algumas horas..</p>
+<p><img src="/blog/img/opencv-post-001/homer.gif" alt=""></p>
+<h2 id="testando">Testando</h2>
+<p>Para o OpenCV rode no terminal:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">~/install-opencv-dlib-raspbian/test-opencv.sh
+</code></pre></div><p>Para o DLIB rode no terminal:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">~/install-opencv-dlib-raspbian/test-dlib.sh
+</code></pre></div><p>e então:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#8be9fd;font-style:italic">cd</span> ~/install-opencv-dlib-raspbian <span style="color:#ff79c6">&amp;&amp;</span> python ~/install-opencv-dlib-raspbian/test-dlib.py
+</code></pre></div><h1 id="instalação-passo-a-passo">INSTALAÇÃO PASSO A PASSO</h1>
+<p>Eu sugiro que siga pela <a href="#instala%C3%A7%C3%A3o-simples">instalação simples</a> (UPDATE). Mas se quiser especificar versões das bibliotecas use estas instruções.</p>
 <h1 id="compilando-o-opencv-no-raspbian">Compilando o OpenCV no Raspbian</h1>
 <p>Rode cada uma destas linhas no Terminal do Raspbian:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git clone https://github.com/alexandremendoncaalvaro/install-opencv-dlib-raspbian.git ~/install-opencv-dlib-raspbian <span style="color:#ff79c6">&amp;&amp;</span> <span style="color:#8be9fd;font-style:italic">cd</span> ~/install-opencv-dlib-raspbian
@@ -373,9 +408,13 @@ pipenv install numpy dlib</p>
 <p>No terminal do Raspbian:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">~/install-opencv-dlib-raspbian/swapfile.sh <span style="color:#bd93f9">100</span>
 </code></pre></div><p>IMPORTANTE: Volte as configurações originais de Memory split e o Boot pra interface Desktop seguindo o processo que usamos o raspi-config.</p>
-<h1 id="testando">Testando</h1>
-<p>Rode no terminal:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">~/install-opencv-dlib-raspbian/test.sh
+<h1 id="testando-1">Testando</h1>
+<p>Para o OpenCV rode no terminal:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">~/install-opencv-dlib-raspbian/test-opencv.sh
+</code></pre></div><p>Para o DLIB rode no terminal:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">~/install-opencv-dlib-raspbian/test-dlib.sh
+</code></pre></div><p>e então:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#8be9fd;font-style:italic">cd</span> ~/install-opencv-dlib-raspbian <span style="color:#ff79c6">&amp;&amp;</span> python ~/install-opencv-dlib-raspbian/test-dlib.py
 </code></pre></div><h1 id="referências">Referências</h1>
 <p><a href="https://www.pyimagesearch.com/2017/05/01/install-dlib-raspberry-pi/">https://www.pyimagesearch.com/2017/05/01/install-dlib-raspberry-pi/</a></p>
 <p><a href="https://www.pyimagesearch.com/2018/01/22/install-dlib-easy-complete-guide/">https://www.pyimagesearch.com/2018/01/22/install-dlib-easy-complete-guide/</a></p>
@@ -440,7 +479,7 @@ pipenv install numpy dlib</p>
     </li>
     <li>
         <a href="javascript:;"
-            onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&url=https:\/\/inteligenciadascoisas.github.io\/blog\/post\/opencv-post-1-raspberry\/ &title=OpenCV e Dlib no Raspberry Pi &summary=Instalação quase fácil&source=inteligencia-das-coisas');">
+            onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&url=https:\/\/inteligenciadascoisas.github.io\/blog\/post\/opencv-post-1-raspberry\/ &title=OpenCV e Dlib no Raspberry Pi &summary=Instalação AGORA fácil&source=inteligencia-das-coisas');">
             <span class="fa-stack fa-lg">
                 <i class="fa fa-circle fa-stack-2x"></i>
                 <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
@@ -449,7 +488,7 @@ pipenv install numpy dlib</p>
     </li>
     <li>
         <a href="javascript:;"
-            onclick="window.open('mailto:?&body=Olha que interessante este artigo: https:\/\/inteligenciadascoisas.github.io\/blog\/post\/opencv-post-1-raspberry\/&subject=Artigo: OpenCV e Dlib no Raspberry Pi - Instalação quase fácil');">
+            onclick="window.open('mailto:?&body=Olha que interessante este artigo: https:\/\/inteligenciadascoisas.github.io\/blog\/post\/opencv-post-1-raspberry\/&subject=Artigo: OpenCV e Dlib no Raspberry Pi - Instalação AGORA fácil');">
             <span class="fa-stack fa-lg">
                 <i class="fa fa-circle fa-stack-2x"></i>
                 <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>

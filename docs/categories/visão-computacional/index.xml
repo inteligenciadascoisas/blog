@@ -17,9 +17,10 @@
       <pubDate>Thu, 28 May 2020 00:00:00 +0000</pubDate>
       
       <guid>https://inteligenciadascoisas.github.io/blog/post/opencv-post-1-raspberry/</guid>
-      <description>Introdução Assim como muita gente, tive problemas para instalar o OpenCV e a bilioteca Dlib pra trabalhar com visão computacional no Raspberry Pi.
+      <description>UPDATE: Adicionei o processo fácil de instalação. Veja abaixo em INSTALAÇÃO SIMPLES.
+Introdução Assim como muita gente, tive problemas para instalar o OpenCV e a bilioteca Dlib pra trabalhar com visão computacional no Raspberry Pi.
 Exatamente por isso decidir ajudar, dei uma bela lida nos tutoriais disponíveis e documentação oficial e resolvi compartilhar este processo com alguns scripts pra facilitar e a automatizar bastante esta instalação, deixando quase fácil.
-Testei com algumas versões diferentes (de hardware e software) com sucesso. Mas, obviamente não consegui cobrir todos os cenários, então sinta-se a vontade para colaborar com um Pull Request ou me avisar.</description>
+Testei com algumas versões diferentes (de hardware e software) com sucesso.</description>
     </item>
     
   </channel>
